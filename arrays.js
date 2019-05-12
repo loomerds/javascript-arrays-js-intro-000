@@ -17,3 +17,23 @@ function destructivelyAddElementToEndOfArray(arr, element) {
   arr.push(element);
   return arr;
 }
+
+function accessElementInArray(arr, index) {
+  return arr[index];
+}
+
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  return arr.shift();
+}
+
+function removeElementFromBeginningOfArray(arr) {
+  return arr.slice(arr.length-1);
+}
+
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  return arr.pop()
+}
+
+function removeElementFromEndOfArray(arr) {
+  
+}
